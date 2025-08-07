@@ -1,7 +1,7 @@
 const products = [
-  { id: 1, name: "T-shirt", price: 10, image: "images/tshirt.jpg" },
-  { id: 2, name: "Shoes", price: 25, image: "images/shoes.jpg" },
-  { id: 3, name: "Hat", price: 15, image: "images/hat.jpg" },
+  { id: 1, name: "T-shirt", price: 10, image: "tshirt.jpg" },
+  { id: 2, name: "Shoes", price: 25, image: "shoes.jpg" },
+  { id: 3, name: "Hat", price: 15, image: "hat.jpg" },
 ];
 
 const cart = [];
@@ -171,4 +171,5 @@ function addToCart(productId) {
 loadCart();
 renderProducts();
 renderCart();
+
 updateLoginUI();
